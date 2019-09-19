@@ -243,6 +243,9 @@ purescriptGrammar =
       name: 'constant.language.boolean'
       match: /\b(true|false)\b/
     ,
+      name: 'constant.language.unit'
+      match: /\b(unit)\b/
+    ,
       name: 'constant.numeric'
       match: /\b(([0-9]+_?)*[0-9]+|0([xX][0-9a-fA-F]+|[oO][0-7]+))\b/
     ,
